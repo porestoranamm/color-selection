@@ -12,9 +12,14 @@ body {
 
 .col {
     flex: 1;
-    background: #ccc;
+    background: darkred;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.col h2 {
+    padding: 10px;
+    color: white;
 }
