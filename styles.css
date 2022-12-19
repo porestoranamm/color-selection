@@ -22,4 +22,11 @@ body {
 .col h2 {
     padding: 10px;
     color: white;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+.col h2:hover {
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
 }
